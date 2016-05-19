@@ -41,7 +41,7 @@ while cards !={}:
 	picked_card2 = cards[card_pick2]
 	print "Your card is {}".format (picked_card2)
 	print
-py
+
 	if picked_card1 == picked_card2:
 		del cards[card_pick1], cards[card_pick2]
 		print "The cards match!"
